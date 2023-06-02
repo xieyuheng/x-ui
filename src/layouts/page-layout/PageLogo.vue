@@ -1,8 +1,5 @@
 <script setup lang="ts">
-import { useGlobalLang } from '../../components/lang/useGlobalLang'
 import Hyperlink from '../../components/utils/Hyperlink.vue'
-
-
 </script>
 
 <template>
