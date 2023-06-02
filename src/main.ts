@@ -6,6 +6,7 @@ import router from './router'
 import './styles/fonts.css'
 import './styles/index.css'
 import { registerServiceWorker } from './utils/pwa/registerServiceWorker'
+import './register'
 
 const app = createApp(App)
 
