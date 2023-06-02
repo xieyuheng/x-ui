@@ -1,9 +1,6 @@
 {
   "name": "@xieyuheng/x-ui",
   "version": "0.0.1",
-  "engines": {
-    "node": ">=18"
-  },
   "files": [
     "lib"
   ],

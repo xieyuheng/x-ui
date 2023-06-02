@@ -1,4 +1,4 @@
-deploy to netlify
+deploy to vercel
 publish to npm
 
 # learn
