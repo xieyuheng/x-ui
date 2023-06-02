@@ -1,10 +1,15 @@
 remove mimor code
-change project name
+remove unused packages
+change favicon to x-
+deploy to netlify
 
-copy code from patterns-of-web-user-interface
+# learn
 
-- learn from alpinejs
-- learn from headlessui
+learn from patterns-of-web-user-interface
+learn from alpinejs
+learn from headlessui
+
+# components
 
 <x-init>
 <x-dropdown>
