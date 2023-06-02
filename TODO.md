@@ -1,6 +1,5 @@
-publish to npm
-change favicon to x-
 deploy to netlify
+publish to npm
 
 # learn
 
