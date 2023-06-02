@@ -1,12 +1,12 @@
-# dropdown
+# x-dropdown
 
 <x-dropdown>
 
-# init
+# x-init
 
 <x-init>
 
-# dialog
+# x-dialog
 
 <x-dialog>
 
