@@ -1,5 +1,5 @@
-remove mimor code
 remove unused packages
+publish to npm
 change favicon to x-
 deploy to netlify
 

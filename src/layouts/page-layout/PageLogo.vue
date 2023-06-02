@@ -2,11 +2,11 @@
 import { useGlobalLang } from '../../components/lang/useGlobalLang'
 import Hyperlink from '../../components/utils/Hyperlink.vue'
 
-const lang = useGlobalLang()
+
 </script>
 
 <template>
-  <Hyperlink href="/" class="whitespace-pre font-logo font-bold">
-    <div>{{ lang.isZh() ? '谜墨' : 'Mimor' }}</div>
+  <Hyperlink href="/" class="font-logo whitespace-pre font-bold">
+    <div>X UI</div>
   </Hyperlink>
 </template>
