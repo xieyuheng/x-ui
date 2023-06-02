@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { ArrowTopRightOnSquareIcon } from '@heroicons/vue/24/outline'
 import { Head } from '@vueuse/head'
 import Lang from '../../components/lang/Lang.vue'
 import { useGlobalLang } from '../../components/lang/useGlobalLang'
@@ -29,47 +28,7 @@ const lang = useGlobalLang()
         </div>
       </div>
 
-      <Lang>
-        <template #zh>
-          <a
-            :href="`https://readonly.link/manuals/${origin}/contents/manual/en.json`"
-            class="inline-flex items-center text-sky-700 decoration-sky-700 visited:text-purple-700 visited:decoration-purple-700 hover:underline"
-            target="_blank"
-            >谜墨手册（英文）<ArrowTopRightOnSquareIcon
-              class="w-4 shrink-0 text-stone-500" /></a
-          >。
-        </template>
-        <template #en>
-          <a
-            :href="`https://readonly.link/manuals/${origin}/contents/manual/en.json`"
-            class="inline-flex items-center text-sky-700 decoration-sky-700 visited:text-purple-700 visited:decoration-purple-700 hover:underline"
-            target="_blank"
-            >Mimor Manual<ArrowTopRightOnSquareIcon
-              class="w-4 shrink-0 text-stone-500" /></a
-          >.
-        </template>
-      </Lang>
 
-      <Lang>
-        <template #zh>
-          <a
-            :href="`https://readonly.link/manuals/${origin}/contents/manual/zh.json`"
-            class="inline-flex items-center text-sky-700 decoration-sky-700 visited:text-purple-700 visited:decoration-purple-700 hover:underline"
-            target="_blank"
-            >谜墨手册<ArrowTopRightOnSquareIcon
-              class="w-4 shrink-0 text-stone-500" /></a
-          >。
-        </template>
-        <template #en>
-          <a
-            :href="`https://readonly.link/manuals/${origin}/contents/manual/zh.json`"
-            class="inline-flex items-center text-sky-700 decoration-sky-700 visited:text-purple-700 visited:decoration-purple-700 hover:underline"
-            target="_blank"
-            >Mimor Manual (Chinese)<ArrowTopRightOnSquareIcon
-              class="w-4 shrink-0 text-stone-500" /></a
-          >.
-        </template>
-      </Lang>
     </div>
   </PageLayout>
 </template>
