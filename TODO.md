@@ -1,6 +1,3 @@
-deploy to vercel
-publish to npm
-
 # learn
 
 learn from patterns-of-web-user-interface
