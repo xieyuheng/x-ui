@@ -25,8 +25,6 @@ const lang = useGlobalLang()
           </Lang>
         </div>
       </div>
-
-
     </div>
   </PageLayout>
 </template>
