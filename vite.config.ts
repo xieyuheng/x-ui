@@ -8,5 +8,15 @@ export default defineConfig({
   build: {
     sourcemap: true,
   },
-  plugins: [vue(), splitVendorChunkPlugin(), pluginRewriteAll()],
+  plugins: [
+    vue({
+      template: {
+        compilerOptions: {
+          isCustomElement: (tag) => tag.startsWith('x-'),
+        },
+      },
+    }),
+    splitVendorChunkPlugin(),
+    pluginRewriteAll(),
+  ],
 })
