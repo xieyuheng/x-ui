@@ -2,7 +2,7 @@
 
 [ [WEBWITE](https://x-ui.xieyuheng.com) ]
 
-Headless Web Components.
+Utility UI Components.
 
 ## Development
 
