@@ -7,7 +7,7 @@ export default defineConfig({
     sourcemap: true,
     outDir: 'lib',
     lib: {
-      entry: './src/main.ce.ts',
+      entry: './src/index.ts',
       name: 'index',
       fileName: 'index',
     },
